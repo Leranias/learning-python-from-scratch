@@ -57,7 +57,7 @@ while True:
             
             print("standart also gut dann 1 bis 10")
             zahlenraten(unterezahl,höchstezahl)
-    except TypeError:
+    except ValueError:
         print("fehler")
 
 
